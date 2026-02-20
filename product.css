@@ -1,11 +1,11 @@
-.products-container {
-    display: grid;
+
+.product {
+
+   display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 20px;
     padding: 20px;
-}
-
-.product-card {
+    flex-wrap: wrap;
     background: white;
     padding: 20px;
     border-radius: 10px;
@@ -13,21 +13,22 @@
     transition: transform 0.3s ease;
 }
 
-.product-card:hover {
+.product:hover {
     transform: translateY(-5px);
 }
 
-.product-card h3 {
+.product h3 {
     margin-bottom: 10px;
     font-size: 18px;
+    color: blueviolet;
 }
 
-.product-card p {
+.product p {
     margin: 5px 0;
-    color: #555;
+    color:blue;
 }
 
-.product-card button {
+.product button {
     margin-top: 10px;
     padding: 8px 12px;
     border: none;
@@ -37,7 +38,7 @@
     cursor: pointer;
 }
 
-.product-card button:hover {
+.product button:hover {
     background-color: #0056b3;
 }
 
@@ -48,4 +49,129 @@
         padding: 10px;
     }
 }
+.product-20{
+    background: url(download\ \(20\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.product-1{
+    background: url(download\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.product-2{
+    background: url(download\ \(3\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.product-3{
+    background: url(download\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.product-4{
+    background: url(download\ \(4\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.product-5{
+    background: url(download\ \(5\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.product-6{
+    background: url(download\ \(6\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.product-7{
+    background: url(download\ \(7\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.product-8{
+    background: url(download\ \(8\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.product-9{
+    background: url(download\ \(9\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.product-10{
+    background: url(download\ \(10\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.product-11{
+    background: url(download\ \(11\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.product-12{
+    background: url(download\ \(12\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.product-13{
+    background: url(download\ \(13\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.product-14{
+    background: url(download\ \(14\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.product-15{
+    background: url(download\ \(15\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.product-16{
+    background: url(download\ \(16\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.product-17{
+    background: url(download\ \(17\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.product-18{
+    background: url(download\ \(18\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.product-19{
+    background: url(download\ \(19\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
+
+
+
+
+ 

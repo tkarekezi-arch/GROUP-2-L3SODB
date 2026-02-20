@@ -72,7 +72,7 @@ function updateDashboard() {
         if (quantity > 0) {
             inStock++;
         } else {
-            outStock++;
+            outStock--;
         }
     });
 
