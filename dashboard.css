@@ -62,6 +62,13 @@ h1 {
   margin: 20px;
   margin-top: 90px;
 }
+.card:hover{
+  color: gold;
+  transform: translateY(-10px);
+  transition: 1s;
+  background-color: aqua;
+  
+}
 
 .card {
   background: white;
